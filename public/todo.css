@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    padding: 7px;
+}
+body{
+    background-color: beige;
+    color:brown;
+}
+
+table{
+    width: 600px;
+}
+tr{
+    border-bottom: cornflowerblue solid 2px;
+}
+
+th{
+    background-color:aliceblue;
+    border-bottom: cornflowerblue solid 3px;
+    border: cornflowerblue solid 1px;
+    text-align: center;
+}
+
+td{
+    border: cornflowerblue solid 1px;
+}
+
+.kozepre{
+    text-align: center;
+}

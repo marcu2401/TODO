@@ -1,0 +1,14 @@
+<%- include('header'); %>
+<table>
+    <tr>
+        <th colspan="3" rowspan="1">Tevékenységek listája</th>
+    </tr>
+    <% for( let data of todos ) { %>
+        <tr>
+        <td><%=data.todo%></td>
+        <td class="kozepre"><a href="#" class"btn btn-danger"><i class="bi bi-pencil"></i></a></td>
+        <td class="kozepre"><a href="/remove/<%= data.id %>" class"btn btn-danger"><i class="bi bi-trash3"></i></a></td>
+        </tr>
+        <%}%>
+</table>
+<%- include('footer'); %>
